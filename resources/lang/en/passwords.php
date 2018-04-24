@@ -4,13 +4,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Password Reset Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are the default lines which match reasons
-    | that are given by the password broker for a password update attempt
-    | has failed, such as for an invalid token or invalid new password.
-    |
+    | Restablecimiento de contraseña Líneas de idioma
+    | ------------------------------------------------- -------------------------
+    |
+    | Las siguientes líneas de idioma son las líneas predeterminadas que coinciden con los motivos
+    | que proporciona el agente de contraseñas para un intento de actualización de contraseña
+    | ha fallado, como un token no válido o una nueva contraseña no válida.
+    |
     */
 
     'password' => 'Passwords must be at least six characters and match the confirmation.',

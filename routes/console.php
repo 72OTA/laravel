@@ -4,12 +4,12 @@ use Illuminate\Foundation\Inspiring;
 
 /*
 |--------------------------------------------------------------------------
-| Console Routes
-|--------------------------------------------------------------------------
+| Rutas de consola
+| ------------------------------------------------- -------------------------
 |
-| This file is where you may define all of your Closure based console
-| commands. Each Closure is bound to a command instance allowing a
-| simple approach to interacting with each command's IO methods.
+| Este archivo es donde puede definir toda su consola basada en Closure
+| comandos. Cada cierre está vinculado a una instancia de comando que permite
+| enfoque simple para interactuar con los métodos IO de cada comando.
 |
 */
 

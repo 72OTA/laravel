@@ -2,12 +2,12 @@
 
 /*
 |--------------------------------------------------------------------------
-| Broadcast Channels
-|--------------------------------------------------------------------------
+| Canales de transmisión
+| ------------------------------------------------- -------------------------
 |
-| Here you may register all of the event broadcasting channels that your
-| application supports. The given channel authorization callbacks are
-| used to check if an authenticated user can listen to the channel.
+| Aquí puede registrar todos los canales de transmisión de eventos que su
+| aplicación compatible. Las devoluciones de llamada de autorización del canal son
+| utilizado para verificar si un usuario autenticado puede escuchar el canal.
 |
 */
 

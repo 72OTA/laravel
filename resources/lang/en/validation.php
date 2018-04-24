@@ -4,13 +4,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Validation Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines contain the default error messages used by
-    | the validator class. Some of these rules have multiple versions such
-    | as the size rules. Feel free to tweak each of these messages here.
-    |
+    | Líneas de idioma de validación
+    | ------------------------------------------------- -------------------------
+    |
+    | Las siguientes líneas de idioma contienen los mensajes de error predeterminados utilizados por
+    | la clase de validador Algunas de estas reglas tienen múltiples versiones tales
+    | como el tamaño gobierna Siéntase libre de modificar cada uno de estos mensajes aquí.
+    |
     */
 
     'accepted'             => 'The :attribute must be accepted.',
@@ -91,13 +91,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Custom Validation Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | Here you may specify custom validation messages for attributes using the
-    | convention "attribute.rule" to name the lines. This makes it quick to
-    | specify a specific custom language line for a given attribute rule.
-    |
+    | Líneas de lenguaje de validación personalizadas
+    | ------------------------------------------------- -------------------------
+    |
+    | Aquí puede especificar mensajes de validación personalizados para atributos usando el
+    | convención "attribute.rule" para nombrar las líneas. Esto hace que sea rápido
+    | especifique una línea de idioma personalizada específica para una regla de atributo determinada.
+    |
     */
 
     'custom' => [
@@ -108,13 +108,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Custom Validation Attributes
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used to swap attribute place-holders
-    | with something more reader friendly such as E-Mail Address instead
-    | of "email". This simply helps us make messages a little cleaner.
-    |
+    | Atributos de validación personalizados
+    | ------------------------------------------------- -------------------------
+    |
+    | Las siguientes líneas de idioma se usan para intercambiar marcadores de posición de atributos
+    | con algo más amigable para el lector, como la dirección de correo electrónico
+    | de "correo electrónico". Esto simplemente nos ayuda a hacer que los mensajes sean un poco más limpios.
+    |
     */
 
     'attributes' => [],

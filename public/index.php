@@ -11,13 +11,13 @@ define('LARAVEL_START', microtime(true));
 
 /*
 |--------------------------------------------------------------------------
-| Register The Auto Loader
-|--------------------------------------------------------------------------
+| Registre el cargador automático
+| ------------------------------------------------- -------------------------
 |
-| Composer provides a convenient, automatically generated class loader for
-| our application. We just need to utilize it! We'll simply require it
-| into the script here so that we don't have to worry about manual
-| loading any of our classes later on. It feels great to relax.
+| Composer proporciona un cargador de clases conveniente, generado automáticamente para
+| nuestra aplicación. ¡Solo necesitamos utilizarlo! Simplemente lo requeriremos
+| en el script aquí para que no tengamos que preocuparnos por el manual
+| cargando cualquiera de nuestras clases más adelante. Se siente genial para relajarse.
 |
 */
 
@@ -25,13 +25,13 @@ require __DIR__.'/../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
-| Turn On The Lights
-|--------------------------------------------------------------------------
+| Enciende las luces
+| ------------------------------------------------- -------------------------
 |
-| We need to illuminate PHP development, so let us turn on the lights.
-| This bootstraps the framework and gets it ready for use, then it
-| will load up this application so that we can run it and send
-| the responses back to the browser and delight our users.
+| Necesitamos iluminar el desarrollo de PHP, así que vamos a encender las luces.
+| Esto inicia el framework y lo prepara para su uso, luego
+| cargaremos esta aplicación para que podamos ejecutarla y enviar
+| las respuestas de vuelta al navegador y deleitar a nuestros usuarios.
 |
 */
 
@@ -39,13 +39,13 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
-| Run The Application
-|--------------------------------------------------------------------------
+| Ejecuta la aplicación
+| ------------------------------------------------- -------------------------
 |
-| Once we have the application, we can handle the incoming request
-| through the kernel, and send the associated response back to
-| the client's browser allowing them to enjoy the creative
-| and wonderful application we have prepared for them.
+| Una vez que tenemos la aplicación, podemos manejar la solicitud entrante
+| a través del núcleo, y enviar la respuesta asociada de nuevo a
+| el navegador del cliente que les permite disfrutar de la creatividad
+| y maravillosa aplicación que hemos preparado para ellos.
 |
 */
 
