@@ -4,27 +4,27 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Queue Connection Name
-    |--------------------------------------------------------------------------
-    |
-    | Laravel's queue API supports an assortment of back-ends via a single
-    | API, giving you convenient access to each back-end using the same
-    | syntax for every one. Here you may define a default connection.
-    |
+    | Nombre predeterminado de conexión de cola
+    | ------------------------------------------------- -------------------------
+    |
+    | La cola API de Laravel admite una variedad de back-ends a través de un único
+    | API, que le proporciona un acceso conveniente a cada back-end utilizando el mismo
+    | sintaxis para cada uno Aquí puede definir una conexión predeterminada.
+    |
     */
 
     'default' => env('QUEUE_DRIVER', 'sync'),
 
     /*
     |--------------------------------------------------------------------------
-    | Queue Connections
-    |--------------------------------------------------------------------------
-    |
-    | Here you may configure the connection information for each server that
-    | is used by your application. A default configuration has been added
-    | for each back-end shipped with Laravel. You are free to add more.
-    |
-    | Drivers: "sync", "database", "beanstalkd", "sqs", "redis", "null"
+    | Conexiones de cola
+    | ------------------------------------------------- -------------------------
+    |
+    | Aquí puede configurar la información de conexión para cada servidor que
+    | es utilizado por su aplicación. Se ha agregado una configuración predeterminada
+    | para cada back-end enviado con Laravel. Usted es libre de agregar más.
+    |
+    | Controladores: "sync", "database", "beanstalkd", "sqs", "redis", "null"
     |
     */
 
@@ -69,13 +69,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Failed Queue Jobs
-    |--------------------------------------------------------------------------
-    |
-    | These options configure the behavior of failed queue job logging so you
-    | can control which database and table are used to store the jobs that
-    | have failed. You may change them to any database / table you wish.
-    |
+    | Fallas en trabajos de cola
+    | ------------------------------------------------- -------------------------
+    |
+    | Estas opciones configuran el comportamiento del registro de trabajos en cola fallidos para que
+    | puede controlar qué base de datos y tabla se utilizan para almacenar los trabajos que
+    | ha fallado. Puede cambiarlos a cualquier base de datos / tabla que desee.
+    |
     */
 
     'failed' => [

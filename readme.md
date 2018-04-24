@@ -53,7 +53,7 @@ Nos gustaría extender nuestro agradecimiento a los siguientes patrocinadores po
 
 ## Vulnerabilidades de seguridad
 
-Si descubre una vulnerabilidad de seguridad dentro de Laravel, envíe un correo electrónico a Taylor Otwell a través de[taylor@laravel.com](mailto:taylor@laravel.com). Todas las vulnerabilidades de seguridad serán atendidas rápidamente.
+Si descubre una vulnerabilidad de seguridad dentro de Laravel, envíe un correo electrónico a Taylor Otwell a través de [taylor@laravel.com](mailto:taylor@laravel.com). Todas las vulnerabilidades de seguridad serán atendidas rápidamente.
 
 ## Licencia
 

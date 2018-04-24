@@ -20,39 +20,39 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | SMTP Host Address
-    |--------------------------------------------------------------------------
-    |
-    | Here you may provide the host address of the SMTP server used by your
-    | applications. A default option is provided that is compatible with
-    | the Mailgun mail service which will provide reliable deliveries.
-    |
+    | Dirección de host SMTP
+    | ------------------------------------------------- -------------------------
+    |
+    | Aquí puede proporcionar la dirección de host del servidor SMTP utilizado por su
+    | aplicaciones. Se proporciona una opción predeterminada que es compatible con
+    | el servicio de correo Mailgun que proporcionará entregas confiables.
+    |
     */
 
     'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
 
     /*
     |--------------------------------------------------------------------------
-    | SMTP Host Port
-    |--------------------------------------------------------------------------
-    |
-    | This is the SMTP port used by your application to deliver e-mails to
-    | users of the application. Like the host we have set this value to
-    | stay compatible with the Mailgun e-mail application by default.
-    |
+    | Puerto de host SMTP
+    | ------------------------------------------------- -------------------------
+    |
+    | Este es el puerto SMTP utilizado por su aplicación para enviar correos electrónicos a
+    | usuarios de la aplicación. Al igual que el anfitrión, hemos establecido este valor para
+    | ser compatible con la aplicación de correo electrónico Mailgun por defecto.
+    |
     */
 
     'port' => env('MAIL_PORT', 587),
 
     /*
     |--------------------------------------------------------------------------
-    | Global "From" Address
-    |--------------------------------------------------------------------------
-    |
-    | You may wish for all e-mails sent by your application to be sent from
-    | the same address. Here, you may specify a name and address that is
-    | used globally for all e-mails that are sent by your application.
-    |
+    | Dirección global "Desde"
+    | ------------------------------------------------- -------------------------
+    |
+    | Puede desear que todos los correos electrónicos enviados por su aplicación se envíen desde
+    | la misma dirección Aquí, puede especificar un nombre y una dirección que sea
+    | utilizado globalmente para todos los correos electrónicos que envía su aplicación.
+    |
     */
 
     'from' => [
@@ -62,26 +62,26 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | E-Mail Encryption Protocol
-    |--------------------------------------------------------------------------
-    |
-    | Here you may specify the encryption protocol that should be used when
-    | the application send e-mail messages. A sensible default using the
-    | transport layer security protocol should provide great security.
-    |
+    | Protocolo de encriptación de correo electrónico
+    | ------------------------------------------------- -------------------------
+    |
+    | Aquí puede especificar el protocolo de cifrado que se debe usar cuando
+    | la aplicación envía mensajes de correo electrónico. Un ajuste sensato usando el
+    | El protocolo de seguridad de la capa de transporte debe proporcionar una gran seguridad.
+    |
     */
 
     'encryption' => env('MAIL_ENCRYPTION', 'tls'),
 
     /*
     |--------------------------------------------------------------------------
-    | SMTP Server Username
-    |--------------------------------------------------------------------------
-    |
-    | If your SMTP server requires a username for authentication, you should
-    | set it here. This will get used to authenticate with your server on
-    | connection. You may also set the "password" value below this one.
-    |
+    | Nombre de usuario del servidor SMTP
+    | ------------------------------------------------- -------------------------
+    |
+    | Si su servidor SMTP requiere un nombre de usuario para la autenticación, debe
+    | Ponlo aquí. Esto se usará para autenticarse con su servidor en
+    | conexión. También puede establecer el valor de "contraseña" debajo de este.
+    |
     */
 
     'username' => env('MAIL_USERNAME'),
@@ -90,26 +90,26 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Sendmail System Path
-    |--------------------------------------------------------------------------
-    |
-    | When using the "sendmail" driver to send e-mails, we will need to know
-    | the path to where Sendmail lives on this server. A default path has
-    | been provided here, which will work well on most of your systems.
-    |
+    | Ruta del sistema Sendmail
+    | ------------------------------------------------- -------------------------
+    |
+    | Cuando utilice el controlador "sendmail" para enviar correos electrónicos, necesitaremos saber
+    | el camino hacia donde Sendmail vive en este servidor. Una ruta predeterminada tiene
+    | proporcionado aquí, que funcionará bien en la mayoría de sus sistemas.
+    |
     */
 
     'sendmail' => '/usr/sbin/sendmail -bs',
 
     /*
     |--------------------------------------------------------------------------
-    | Markdown Mail Settings
-    |--------------------------------------------------------------------------
-    |
-    | If you are using Markdown based email rendering, you may configure your
-    | theme and component paths here, allowing you to customize the design
-    | of the emails. Or, you may simply stick with the Laravel defaults!
-    |
+    | Configuración de correo de marcado
+    | ------------------------------------------------- -------------------------
+    |
+    | Si está utilizando renderizado de correo electrónico basado en Markdown, puede configurar su
+    | rutas de temas y componentes aquí, lo que le permite personalizar el diseño
+    | de los correos electrónicos. O bien, puede simplemente quedarse con los valores predeterminados de Laravel!
+    |
     */
 
     'markdown' => [
