@@ -6,29 +6,28 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Log Channel
-    |--------------------------------------------------------------------------
-    |
-    | This option defines the default log channel that gets used when writing
-    | messages to the logs. The name specified in this option should match
-    | one of the channels defined in the "channels" configuration array.
-    |
+    | Canal de registro predeterminado
+    | ------------------------------------------------- -------------------------
+    |
+    | Esta opción define el canal de registro predeterminado que se usa al escribir
+    | mensajes a los registros. El nombre especificado en esta opción debe coincidir
+    | uno de los canales definidos en la matriz de configuración de "canales".|
     */
 
     'default' => env('LOG_CHANNEL', 'stack'),
 
     /*
     |--------------------------------------------------------------------------
-    | Log Channels
-    |--------------------------------------------------------------------------
+    | Canales de registro
+    | ------------------------------------------------- -------------------------
+    |
+    | Aquí puede configurar los canales de registro para su aplicación. Fuera de
+    | la caja, Laravel usa la biblioteca de registro Monolog PHP. Esto da
+    | usted una variedad de manipuladores / formateadores de registro poderosos para utilizar.
     |
-    | Here you may configure the log channels for your application. Out of
-    | the box, Laravel uses the Monolog PHP logging library. This gives
-    | you a variety of powerful log handlers / formatters to utilize.
-    |
-    | Available Drivers: "single", "daily", "slack", "syslog",
-    |                    "errorlog", "monolog",
-    |                    "custom", "stack"
+    | Controladores disponibles: "single", "daily", "slack", "syslog",
+    |                               "errorlog", "monolog",
+    |                                "custom", "stack"
     |
     */
 

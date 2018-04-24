@@ -4,28 +4,28 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Cache Store
+    | Almacenamiento de caché predeterminado
     |--------------------------------------------------------------------------
     |
-    | This option controls the default cache connection that gets used while
-    | using this caching library. This connection is used when another is
-    | not explicitly specified when executing a given caching function.
-    |
-    | Supported: "apc", "array", "database", "file", "memcached", "redis"
-    |
+    | Esta opción controla la conexión de caché predeterminada que se usa mientras
+    | usando esta biblioteca de almacenamiento en caché. Esta conexión se usa cuando otro es
+    | no explícitamente especificado cuando se ejecuta una función de almacenamiento en caché determinada.
+    |
+    | Compatible: "apc", "array", "database", "file", "memcached", "redis"
+    |
     */
 
     'default' => env('CACHE_DRIVER', 'file'),
 
     /*
     |--------------------------------------------------------------------------
-    | Cache Stores
+    | Tiendas de caché
     |--------------------------------------------------------------------------
     |
-    | Here you may define all of the cache "stores" for your application as
-    | well as their drivers. You may even define multiple stores for the
-    | same cache driver to group types of items stored in your caches.
-    |
+    | Aquí puede definir todas las "tiendas" de caché para su aplicación como
+    | así como sus conductores. Incluso puede definir tiendas múltiples para el
+    | mismo controlador de caché para agrupar los tipos de elementos almacenados en sus cachés.
+    |
     */
 
     'stores' => [
@@ -77,13 +77,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Cache Key Prefix
+    | Prefijo de clave de caché
     |--------------------------------------------------------------------------
     |
-    | When utilizing a RAM based store such as APC or Memcached, there might
-    | be other applications utilizing the same cache. So, we'll specify a
-    | value to get prefixed to all our keys so we can avoid collisions.
-    |
+    | Cuando se utiliza una tienda basada en RAM como APC o Memcached, podría haber
+    | Otras aplicaciones que utilizan el mismo caché. Entonces, especificaremos un
+    | valor para obtener el prefijo de todas nuestras claves para que podamos evitar las colisiones.
+    |
     */
 
     'prefix' => env(

@@ -4,14 +4,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Mail Driver
-    |--------------------------------------------------------------------------
+    | Conductor de correo
+    | ------------------------------------------------- -------------------------
+    |
+    | Laravel admite la función "correo" de SMTP y PHP como controladores para
+    | envío de correo electrónico Puedes especificar cuál usas en todo
+    | tu aplicación aquí. Por defecto, Laravel está configurado para correo SMTP.
     |
-    | Laravel supports both SMTP and PHP's "mail" function as drivers for the
-    | sending of e-mail. You may specify which one you're using throughout
-    | your application here. By default, Laravel is setup for SMTP mail.
-    |
-    | Supported: "smtp", "sendmail", "mailgun", "mandrill", "ses",
+    | Soportado: "smtp", "sendmail", "mailgun", "mandrill", "ses",
     |            "sparkpost", "log", "array"
     |
     */

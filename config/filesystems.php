@@ -4,41 +4,39 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Filesystem Disk
-    |--------------------------------------------------------------------------
-    |
-    | Here you may specify the default filesystem disk that should be used
-    | by the framework. The "local" disk, as well as a variety of cloud
-    | based disks are available to your application. Just store away!
-    |
+    |Disco del sistema de archivos predeterminado
+    | ------------------------------------------------- -------------------------
+    |
+    | Aquí puede especificar el disco del sistema de archivos predeterminado que se debe usar
+    | por el marco. El disco "local", así como una variedad de nubes
+    | discos basados ​​están disponibles para su aplicación. ¡Solo almacena!
+    |
     */
 
     'default' => env('FILESYSTEM_DRIVER', 'local'),
 
     /*
     |--------------------------------------------------------------------------
-    | Default Cloud Filesystem Disk
-    |--------------------------------------------------------------------------
-    |
-    | Many applications store files both locally and in the cloud. For this
-    | reason, you may specify a default "cloud" driver here. This driver
-    | will be bound as the Cloud disk implementation in the container.
-    |
-    */
+    | Disco predeterminado del sistema de archivos de la nube
+    | ------------------------------------------------- -------------------------
+    |
+    | Muchas aplicaciones almacenan archivos tanto localmente como en la nube. Para esto
+    | Por lo tanto, puede especificar un controlador predeterminado de "nube" aquí. Este controlador
+    | se vinculará como la implementación del disco de la nube en el contenedor.
+    |*/
 
     'cloud' => env('FILESYSTEM_CLOUD', 's3'),
 
     /*
     |--------------------------------------------------------------------------
-    | Filesystem Disks
-    |--------------------------------------------------------------------------
-    |
-    | Here you may configure as many filesystem "disks" as you wish, and you
-    | may even configure multiple disks of the same driver. Defaults have
-    | been setup for each driver as an example of the required options.
-    |
-    | Supported Drivers: "local", "ftp", "sftp", "s3", "rackspace"
-    |
+    | Discos del sistema de archivos
+    | ------------------------------------------------- -------------------------
+    |
+    | Aquí puede configurar tantos "discos" del sistema de archivos como desee, y
+    | incluso puede configurar múltiples discos del mismo controlador. Los valores predeterminados tienen
+    | ha sido configurado para cada controlador como un ejemplo de las opciones requeridas.
+    |
+    | Controladores compatibles: "local", "ftp", "sftp", "s3", "rackspace"|
     */
 
     'disks' => [

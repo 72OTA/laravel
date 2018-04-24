@@ -4,12 +4,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Name
+    | Nombre de la aplicacion
     |--------------------------------------------------------------------------
     |
-    | This value is the name of your application. This value is used when the
-    | framework needs to place the application's name in a notification or
-    | any other location as required by the application or its packages.
+    | Este valor es el nombre de tu aplicación. Este valor se usa cuando el
+    | marco necesita colocar el nombre de la aplicación en una notificación o
+    | cualquier otra ubicación según lo requiera la aplicación o sus paquetes.
     |
     */
 
@@ -17,12 +17,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Environment
+    | Ambiente de la aplicacion
     |--------------------------------------------------------------------------
     |
-    | This value determines the "environment" your application is currently
-    | running in. This may determine how you prefer to configure various
-    | services your application utilizes. Set this in your ".env" file.
+    | Este valor determina el "entorno" en el que se encuentra actualmente su aplicación
+    | corriendo. Esto puede determinar cómo prefiere configurar varios
+    | servicios que utiliza su aplicación. Establezca esto en su archivo ".env".
     |
     */
 
@@ -30,12 +30,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Debug Mode
+    | 
+    | Modo de depuración de aplicaciones
     |--------------------------------------------------------------------------
     |
-    | When your application is in debug mode, detailed error messages with
-    | stack traces will be shown on every error that occurs within your
-    | application. If disabled, a simple generic error page is shown.
+    | Cuando su aplicación está en modo de depuración, los mensajes de error detallados con
+    | los rastros de pila se mostrarán en cada error que ocurra dentro de su
+    | solicitud. Si está deshabilitado, se muestra una página de error genérico simple.
     |
     */
 
@@ -43,12 +44,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application URL
+    | URL de la aplicación
     |--------------------------------------------------------------------------
     |
-    | This URL is used by the console to properly generate URLs when using
-    | the Artisan command line tool. You should set this to the root of
-    | your application so that it is used when running Artisan tasks.
+    | Esta URL es utilizada por la consola para generar URL correctamente al usar
+    | la herramienta de línea de comandos de Artisan. Debe establecer esto en la raíz de
+    | su aplicación para que se use al ejecutar tareas de Artisan.
     |
     */
 
@@ -56,25 +57,24 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Timezone
+    | Zona horaria de la aplicación
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the default timezone for your application, which
-    | will be used by the PHP date and date-time functions. We have gone
-    | ahead and set this to a sensible default for you out of the box.
-    |
+    | Aquí puede especificar la zona horaria predeterminada para su aplicación, que
+    | será utilizado por las funciones de fecha y hora de PHP. Nos hemos ido
+    | adelante y configúrelo de manera predeterminada para usted.|
     */
 
     'timezone' => 'UTC',
 
     /*
     |--------------------------------------------------------------------------
-    | Application Locale Configuration
+    | Configuración regional de la aplicación
     |--------------------------------------------------------------------------
     |
-    | The application locale determines the default locale that will be used
-    | by the translation service provider. You are free to set this value
-    | to any of the locales which will be supported by the application.
+    | La configuración regional de la aplicación determina la configuración regional predeterminada que se usará
+    | por el proveedor de servicios de traducción. Usted es libre de establecer este valor
+    | a cualquiera de las configuraciones regionales que serán compatibles con la aplicación.
     |
     */
 
@@ -82,12 +82,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Fallback Locale
+    | Configuración regional de la aplicación
     |--------------------------------------------------------------------------
     |
-    | The fallback locale determines the locale to use when the current one
-    | is not available. You may change the value to correspond to any of
-    | the language folders that are provided through your application.
+    | La configuración regional alternativa determina la configuración regional que se usará cuando la actual
+    | no está disponible. Puede cambiar el valor para corresponder a cualquiera de
+    | las carpetas de idiomas que se proporcionan a través de su aplicación.
     |
     */
 
@@ -95,12 +95,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Encryption Key
+    | Clave de encriptación
     |--------------------------------------------------------------------------
     |
-    | This key is used by the Illuminate encrypter service and should be set
-    | to a random, 32 character string, otherwise these encrypted strings
-    | will not be safe. Please do this before deploying an application!
+    | Esta tecla es utilizada por el servicio de cifrado Illuminate y debe establecerse
+    | a una cadena aleatoria de 32 caracteres; de lo contrario, estas cadenas cifradas
+    | no será seguro. Por favor, haz esto antes de implementar una aplicación.
     |
     */
 
@@ -110,19 +110,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Autoloaded Service Providers
+    | Proveedores de servicios automáticos
     |--------------------------------------------------------------------------
     |
-    | The service providers listed here will be automatically loaded on the
-    | request to your application. Feel free to add your own services to
-    | this array to grant expanded functionality to your applications.
+    | Los proveedores de servicios enumerados aquí se cargarán automáticamente en el
+    | solicite su solicitud Siéntase libre de agregar sus propios servicios a
+    | esta matriz para otorgar funcionalidad expandida a sus aplicaciones.
     |
     */
 
     'providers' => [
 
         /*
-         * Laravel Framework Service Providers...
+         * Proveedores de servicios de Laravel Framework ...
          */
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
@@ -148,11 +148,11 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
-         * Package Service Providers...
+         * Proveedores de servicios de paquetes ...
          */
 
         /*
-         * Application Service Providers...
+         * Proveedores de servicios de aplicaciones ...
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
@@ -164,12 +164,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Class Aliases
+    | Alias ​​de clase
     |--------------------------------------------------------------------------
     |
-    | This array of class aliases will be registered when this application
-    | is started. However, feel free to register as many as you wish as
-    | the aliases are "lazy" loaded so they don't hinder performance.
+    | Esta matriz de alias de clases se registrará cuando esta aplicación
+    | Alla empezado. Sin embargo, siéntase libre de registrar tantas como desee
+    | los alias son "flojos" cargados para que no obstaculicen el rendimiento.
     |
     */
 

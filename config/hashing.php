@@ -4,28 +4,28 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Hash Driver
-    |--------------------------------------------------------------------------
-    |
-    | This option controls the default hash driver that will be used to hash
-    | passwords for your application. By default, the bcrypt algorithm is
-    | used; however, you remain free to modify this option if you wish.
-    |
-    | Supported: "bcrypt", "argon"
-    |
+    | Controlador Hash predeterminado
+    | ------------------------------------------------- -------------------------
+    |
+    | Esta opción controla el controlador hash predeterminado que se usará para hash
+    | contraseñas para su aplicación. Por defecto, el algoritmo bcrypt es
+    | usado; sin embargo, puede modificar esta opción si lo desea.
+    |
+    | Compatible: "bcrypt", "argon"
+    |
     */
 
     'driver' => 'bcrypt',
 
     /*
     |--------------------------------------------------------------------------
-    | Bcrypt Options
-    |--------------------------------------------------------------------------
-    |
-    | Here you may specify the configuration options that should be used when
-    | passwords are hashed using the Bcrypt algorithm. This will allow you
-    | to control the amount of time it takes to hash the given password.
-    |
+    | Opciones de Bcrypt
+    | ------------------------------------------------- -------------------------
+    |
+    | Aquí puede especificar las opciones de configuración que se deben usar cuando
+    | las contraseñas se procesan usando el algoritmo Bcrypt. Esto te permitirá
+    | para controlar la cantidad de tiempo que lleva codificar la contraseña dada.
+    |
     */
 
     'bcrypt' => [
@@ -34,12 +34,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Argon Options
-    |--------------------------------------------------------------------------
-    |
-    | Here you may specify the configuration options that should be used when
-    | passwords are hashed using the Argon algorithm. These will allow you
-    | to control the amount of time it takes to hash the given password.
+    | Opciones de Argón
+    | ------------------------------------------------- -------------------------
+    |
+    | Aquí puede especificar las opciones de configuración que se deben usar cuando
+    | las contraseñas se procesan usando el algoritmo de Argon. Estos te permitirán
+    | para controlar la cantidad de tiempo que lleva codificar la contraseña dada.
     |
     */
 
